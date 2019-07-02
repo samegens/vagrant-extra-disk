@@ -11,3 +11,5 @@ To open a shell in the VM
 To destroy the VM
 
     vagrant destroy -f
+
+The extra disk will be created as /dev/sdc. A partition will be created and mounted at /mnt/extradisk.
